@@ -1,6 +1,6 @@
 #!/bin/bash
-PREFIX="/espace/$USER"
-INSTALL_DIR="$PREFIX/maven"
+
+INSTALL_DIR="/espace/$USER/maven"
 
 VERSION='3.5.0'
 FILENAME="apache-maven-$VERSION-bin.tar.gz"

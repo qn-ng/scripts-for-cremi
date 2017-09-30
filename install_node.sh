@@ -1,6 +1,6 @@
 #!/bin/bash
-PREFIX="/espace/$USER"
-INSTALL_DIR="$PREFIX/node"
+
+INSTALL_DIR="/espace/$USER/node"
 CACHE_DIR="/tmp/.npm"
 
 VERSION='v8.5.0'
