@@ -14,7 +14,7 @@ $ source /path/to/install_node.sh
 $ source /path/to/install_maven.sh
 $ source /path/to/install_idea.sh
 ```
-Pour le faire automatiquement, il suffit d'ajouter les lignes suivantes à la fin du fichier `~/.profile` dans votre compte:
+Pour le faire automatiquement, il suffit d'ajouter les lignes suivantes à la fin du fichier `~/.profile` (ou `~/.bashrc`) dans votre compte:
 
 ```bash
 if [ "$HOSTNAME" !=  "jaguar" ]; then
