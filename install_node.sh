@@ -13,4 +13,4 @@ if [ ! -d "$INSTALL_DIR/bin" ]; then
 fi
 
 PATH="$INSTALL_DIR/bin":$PATH
-npm_config_cache="$CACHE_DIR"
+"$INSTALL_DIR/bin/npm" config set cache "$CACHE_DIR"
