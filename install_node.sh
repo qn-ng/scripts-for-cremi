@@ -3,7 +3,7 @@
 INSTALL_DIR="/espace/$USER/node"
 CACHE_DIR="/tmp/.npm"
 
-VERSION='v8.5.0'
+VERSION='v8.9.1'
 FILENAME="node-$VERSION-linux-x64.tar.xz"
 
 if [ ! -d "$INSTALL_DIR/bin" ]; then
