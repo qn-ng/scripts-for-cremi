@@ -2,7 +2,7 @@
 
 INSTALL_DIR="/espace/$USER/maven"
 
-VERSION='3.5.0'
+VERSION='3.5.2'
 FILENAME="apache-maven-$VERSION-bin.tar.gz"
 
 if [ ! -d "$INSTALL_DIR/bin" ]; then
